@@ -132,8 +132,8 @@ This table includes the highest-accuracy configuration from each baseline classi
 | File | Purpose |
 | --- | --- |
 | [README.md](README.md) | Project overview, setup, and references |
-| [Dataset-STTI.xlsx](Dataset-STTI.xlsx) | Provided tweet dataset with `Tweets` and `label` columns |
-| [XAI_graph_AMR_finale.ipynb](XAI_graph_AMR_finale.ipynb) | Graph preparation, pattern scoring, explanation visualization, and baseline experiments |
+| [data/Dataset-STTI.xlsx](data/Dataset-STTI.xlsx) | Provided tweet dataset with `Tweets` and `label` columns |
+| [notebooks/XAI_graph_AMR_finale.ipynb](notebooks/XAI_graph_AMR_finale.ipynb) | Graph preparation, pattern scoring, explanation visualization, and baseline experiments |
 | [LICENSE](LICENSE) | MIT license |
 
 Parser weights, generated graph files, mined pattern files, and the LIWC dictionary are not included.
