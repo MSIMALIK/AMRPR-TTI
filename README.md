@@ -30,7 +30,7 @@ The framework converts tweets into AMR graphs and constructs graph-pattern conce
 ![Workflow for Urdu offensive expression detection](docs/workflow.png)
 
 
-## Method
+## Methodology
 
 ### Text-to-graph representation
 
