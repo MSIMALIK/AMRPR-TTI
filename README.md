@@ -24,16 +24,11 @@ This repository accompanies the **2025 Intelligent Data Analysis paper** linked 
 The implementation processes **English-language text**. Its graph patterns provide interpretable evidence associated with each class.
 
 
-## Workflow of Explainable OED in Nastaliq Urdu
+## Workflow of Proposed Framework
 The framework converts tweets into AMR graphs and constructs graph-pattern concept lattices from the training data. An aggregate rule classifies test tweets, while contributing graph patterns and corresponding text provide intermediate and final explanations.
 
 ![Workflow for Urdu offensive expression detection](docs/workflow.png)
 
-The notebook converts tweets to graphs, exports training graphs for external pattern mining, and uses the resulting patterns to score test graphs. Graphviz displays patterns selected for explanation.
-
-<!-- To replace this Mermaid overview with your own workflow image, upload docs/workflow.png and use:
-![Workflow for AMR-based threatening tweet identification](docs/workflow.png)
--->
 
 ## Method
 
