@@ -53,6 +53,19 @@ The explanation is connected to the graph patterns used in scoring. Inspecting t
 
 AMR parsing and graph refinement determine what information reaches the classifier. A visualized pattern is evidence about the model's decision and should be interpreted together with the original tweet.
 
+### Word-Level Explanation Examples
+
+These visualizations highlight words that influence the model output. Red and blue indicate opposing contributions, showing how individual terms support or counter the prediction.
+
+#### Threatening Tweet
+![Word-level explanation of a threatening tweet](docs/threat.png)
+
+Highlighted terms reveal influential features in a threatening example.
+
+#### Non-Threatening Tweet
+![Word-level explanation of a non-threatening tweet](docs/non_threat.png)
+
+This example illustrates how words within a non-threatening tweet contribute in opposing directions.
 <!-- After uploading your own explanation image, add a section such as:
 ## Example graph explanation
 
